@@ -84,7 +84,7 @@
     var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 2, segments: 32}, scene);
 
     const roofMat = new BABYLON.StandardMaterial("roofMat");
-    roofMat.diffuseTexture = new BABYLON.Texture("/textures/jupiter.jpg", scene);
+    roofMat.diffuseTexture = new BABYLON.Texture("jupiter.jpg", scene);
     sphere.material = roofMat;
             
     // Move the sphere upward 1/2 its height
